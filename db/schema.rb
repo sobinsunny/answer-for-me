@@ -16,7 +16,8 @@ ActiveRecord::Schema.define(version: 20170901073057) do
   enable_extension "plpgsql"
 
   create_table "questions", force: :cascade do |t|
-    t.string "question_text"
+    t.string "title"
+    t.string "description"
     t.integer "created_by"
     t.boolean "archived", default: false, null: false
     t.datetime "created_at", null: false

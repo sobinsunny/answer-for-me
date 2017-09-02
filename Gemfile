@@ -27,6 +27,8 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem "react-rails"
 gem 'pg'
+gem 'jquery-rails'
+gem 'semantic-ui-sass', git: 'https://github.com/doabit/semantic-ui-sass.git'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
